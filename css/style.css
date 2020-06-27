@@ -95,6 +95,15 @@ ol li {
   src: local('HelveticaNeue-Thin.otf'), url('HelveticaNeue-Thin.otf') format('opentype') ;
 }
 
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	/* font-family: 'HelveticaNeue-Thin'; */
+}
+
 .container {
 	max-width: 1100px;
 	width: 100%;
@@ -103,11 +112,36 @@ ol li {
 	margin: 0 auto;
 }
 
-body {
-	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'HelveticaNeue-Thin';
+#hero {
+	background-image: url('../img/hero-bg.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 }
 
-h1{
-	font-size: 25px;
+h2 {
+	font-size: 52px;
+	font-weight: 700;
+	text-transform: uppercase;
 }
+
+.nav li {
+	display: inline-block;
+}
+
+.nav li a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-left: 30px;
+	padding-bottom: 3px;
+	border-bottom: 4px solid white transparent;
+	transition: border-bottom 0.1s , color 0.1s;
+}
+
+.nav li a:hover {
+
+	border-bottom: 4px solid white ;
+	transition: border-bottom 0.1s , color 0.1s;
+}
+
