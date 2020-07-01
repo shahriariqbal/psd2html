@@ -1,77 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>psd2html</title>
 
     <!-- character encoding -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Display webpage in edge mode/IE  in highest supported document mode -->
-    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">
+    <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1" />
     <!-- optimization for mobile devices -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"</script>
     <![endif]-->
-</head>
-<body>
-
-  <section id="hero">
+  </head>
+  <body>
+    <section id="hero">
       <div class="container">
+        <div class="logo alignLeft">
+          <a href="/"> <img src="img/logo.png" class="logo-img" alt="" /> </a>
+        </div>
 
+        <nav class="navbar">
+          <ul class="nav alignRight">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Features</a></li>
+            <li><a href="/">Download </a></li>
+            <li><a href="/"> Blog </a></li>
+            <li><a href="/"> Contact</a></li>
+          </ul>
+        </nav>
 
-          <div class="logo alignLeft">
-              <a href="/"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+        <div class="cta">
+          <div class="imgs">
+            <img src="img/iphone.png" class="iphone" alt="" />
           </div>
 
+          <div class="cta-info">
+            <h2>Chocolate Pudding Dessert Jelly</h2>
+            <p class="hero-para">
+              Fruitcake donut gummies. Candy liquorice biscuit. Sugar plum jelly
+              gummi bears brownie toffee cupcake caramels brownie cookie.
+            </p>
 
-
-      <nav class="navbar">
-          <ul class="nav alignRight">
-              <li> <a href="/">Home</a></li>
-              <li> <a href="/">Features</a></li>
-              <li> <a href="/">Download </a></li>
-              <li> <a href="/"> Blog </a></li>
-              <li> <a href="/"> Contact</a></li> 
-
-          </ul> 
-
-      </nav>
-
-      <div class="cta">
-         <div class="imgs">
-             <img src="img/iphone.png" class="iphone" alt=""> 
-
-         </div>
-
-         <div class="cta-info">
-             <h2> Chocolate Pudding Dessert Jelly </h2>
-             <p class="hero-para"> 
-                Fruitcake donut gummies. Candy liquorice biscuit.
-                 Sugar plum jelly gummi bears brownie toffee cupcake caramels brownie cookie.
-             </p> 
-
-             <a href="/" class="cta-button">  <img class="phone-icon" src="img/phone-icon.png" alt=""> Download on app store</a>
-
-         </div>
+            <a href="/" class="cta-button">
+              <img class="phone-icon" src="img/phone-icon.png" alt="" />
+              Download on app store</a
+            >
+          </div>
+        </div>
       </div>
+    </section>
 
-    </div>
+    <section id="app-features">
+      <div class="container">
+        <h2 class="app-features">App Features</h2>
+        <p class="p-features">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi tempora
+          unde fuga, iure nihil, quod at repellat magnam corporis sed adipisci
+          reprehenderit, doloremque sequi recusandae quaerat amet deserunt?
+          Dolore, illum?
+        </p>
 
-  </section>
- 
-    
+        <div class="row">
+          <div class="col-4-app">
+            <img src="img/col-1-img.png" alt="" />
+            <h3>Scalable</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              tempora unde fuga, iure nihil, quod at repellat magnam corporis
+              sed adipisci reprehenderit, doloremque sequi recusandae quaerat
+              amet deserunt?
+            </p>
+          </div>
+          <div class="col-4-app">
+            <img src="img/col-2-img.png" alt="" />
+            <h3>Instant</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              tempora unde fuga, iure nihil, quod at repellat magnam corporis
+              sed adipisci reprehenderit, doloremque sequi recusandae quaerat
+              amet deserunt?
+            </p>
+          </div>
+          <div class="col-4-app">
+            <img src="img/col-3-img.png" alt="" />
+            <h3>Something</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
+              tempora unde fuga, iure nihil, quod at repellat magnam corporis
+              sed adipisci reprehenderit, doloremque sequi recusandae quaerat
+              amet deserunt?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- jquery first then javascript -->
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
