@@ -483,3 +483,11 @@ footer p {
 	position: absolute;
 	right: 215px;
 }
+
+.js-wp-2 {
+	opacity: 0;
+}
+
+.js-wp-2.animated {
+	opacity: 1;
+}
