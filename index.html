@@ -17,7 +17,7 @@
     />
 
     <!-- animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/animate.css" />
     <!-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
@@ -35,7 +35,13 @@
     <section id="hero">
       <div class="container">
         <div class="logo alignLeft">
-          <a href="/"> <img src="img/logo.png" class="logo-img" alt="" /> </a>
+          <a href="/">
+            <img
+              src="img/logo.png"
+              class="logo-img animate__animated animate__bounce"
+              alt=""
+            />
+          </a>
         </div>
 
         <nav class="navbar">
@@ -56,7 +62,9 @@
           </div>
 
           <div class="cta-info">
-            <h2 >Chocolate Pudding Dessert Jelly</h2>
+            <h2 class="animate__animated animate__jello">
+              Chocolate Pudding Dessert Jelly
+            </h2>
             <p class="hero-para">
               Fruitcake donut gummies. Candy liquorice biscuit. Sugar plum jelly
               gummi bears brownie toffee cupcake caramels brownie cookie.
@@ -73,7 +81,9 @@
 
     <section id="app-features">
       <div class="container">
-        <h2 class="app-features">App Features</h2>
+        <h2 class="app-features wow animate__animated animate__backInDown">
+          App Features
+        </h2>
         <p class="p-features">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi tempora
           unde fuga, iure nihil, quod at repellat magnam corporis sed adipisci
@@ -82,7 +92,7 @@
         </p>
 
         <div class="row">
-          <div class="col-4-app">
+          <div class="col-4-app wow animate__animated animate__fadeInLeft">
             <img src="img/col-1-img.png" alt="" />
             <h3>Scalable</h3>
             <p>
@@ -92,7 +102,10 @@
               amet deserunt?
             </p>
           </div>
-          <div class="col-4-app">
+          <div
+            class="col-4-app wow animate__animated animate__fadeInUp"
+            data-wow-delay="1s"
+          >
             <img src="img/col-2-img.png" alt="" />
             <h3>Instant</h3>
             <p>
@@ -102,7 +115,7 @@
               amet deserunt?
             </p>
           </div>
-          <div class="col-4-app">
+          <div class="col-4-app wow animate__animated animate__fadeInRight">
             <img src="img/col-3-img.png" alt="" />
             <h3>Something</h3>
             <p>
@@ -140,10 +153,14 @@
     <footer>
       <div class="container">
         <div class="logo-footer">
-          <img src="img/site-logo.png" class="footer-logo" alt="" />
+          <img
+            src="img/site-logo.png"
+            class="footer-logo wow animate__animated animate__bounce"
+            alt=""
+          />
         </div>
 
-        <div class="col-4-footer">
+        <div class="col-4-footer wow animate__animated animate__zoomInLeft">
           <h4>Popular Posts</h4>
           <ul class="ul-posts">
             <li class="reddish-bg">
@@ -154,7 +171,10 @@
           </ul>
         </div>
 
-        <div class="col-4-footer">
+        <div
+          class="col-4-footer wow animate__animated animate__zoomInUp"
+          data-wow-delay="1s"
+        >
           <h4>Suits on Twitter</h4>
           <div class="ul-tweets">
             <li>Sadlex <span class="block smallText">10 hours ago </span></li>
@@ -163,7 +183,7 @@
           </div>
         </div>
 
-        <div class="col-4-footer">
+        <div class="col-4-footer wow animate__animated animate__zoomInRight">
           <h4>About</h4>
           <p class="p-about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
@@ -191,6 +211,8 @@
 
     <!-- waypoints -->
     <script src="js/jquery.waypoints.min.js"></script>
+    <!-- wow.js -->
+    <script src="js/wow.min.js"></script>
 
     <script src="js/main.js"></script>
   </body>

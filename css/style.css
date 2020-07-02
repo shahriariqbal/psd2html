@@ -472,32 +472,30 @@ footer p {
 /* Animation */
 
 .iphone-on {
-	position: absolute;
-	right: 175px;
-	top: 112px;
-	width: 54%;
-	
+  position: absolute;
+  right: 175px;
+  top: 112px;
+  width: 54%;
 }
 
 .iphone-btn {
-	position: absolute;
-	right: 215px;
+  position: absolute;
+  right: 215px;
 }
 
 .js-wp-2 {
-	opacity: 0;
+  opacity: 0;
 }
 
 .js-wp-2.animated {
-	opacity: 1;
+  opacity: 1;
 }
 
 .js-wp-3 {
-	opacity: 0;
-	animation-delay: 3.2s;
+  opacity: 0;
+  animation-delay: 3.2s;
 }
 
 .js-wp-3.animated {
-	opacity: 1;
+  opacity: 1;
 }
-
