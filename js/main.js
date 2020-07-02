@@ -8,6 +8,19 @@ $(document).ready ( function() {
         offset: '70%'
     });
 
+
+    $('.js-wp-3').waypoint( function(direction) {
+
+        $('.js-wp-3').addClass('animated   animate__animated animate__fadeIn');
+
+    }, {
+        offset: '70%'
+    });
+
+
+    $(".iphone-btn").delay(2300).animate( { bottom: "+=-3"}, 300 );
+    $(".iphone-btn").delay(300).animate( { top: "+=-3"}, 100 );
+
 });
 
 
